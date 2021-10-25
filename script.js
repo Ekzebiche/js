@@ -54,5 +54,5 @@ const mat2 = [[2, 2, 3], [1, 8, 3], [6, 2, 3]];
 const newMat = new Matrix(mat1, mat2);
 
 console.log(newMat);
-// console.log(newMat.matrixMultiplication());
+console.log(newMat.matrixMultiplication());
 console.log(newMat.matrixSort(mat1))
