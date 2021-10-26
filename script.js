@@ -13,8 +13,8 @@ class Matrix {
                     element[i + 1] = temp;
                 }
             }
-            console.log(element);
         });
+        return mat;
     }
 
     matrixMultiplication() {
@@ -53,6 +53,7 @@ const mat2 = [[2, 2, 3], [1, 8, 3], [6, 2, 3]];
 
 const newMat = new Matrix(mat1, mat2);
 
-console.log(newMat);
-console.log(newMat.matrixMultiplication());
-console.log(newMat.matrixSort(mat1))
+console.log('Новый объект: ', newMat);
+console.log('Результат умножения: ', newMat.matrixMultiplication());
+console.log('Результат сортировки mat1: ', newMat.matrixSort(mat1));
+console.log('Результат сортировки mat2: ', newMat.matrixSort(mat2));
